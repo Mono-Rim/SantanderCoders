@@ -6,11 +6,11 @@ public class Main {
 
         Cachorro cachorro1 = new Cachorro();
 
-        cachorro1.nome = "Diana";
-        cachorro1.cor = "Azul";
-        cachorro1.altura = 25;
-        cachorro1.peso = 18.5;
-        cachorro1.tamanhoDoRabo = 5;
+        cachorro1.setNome("Diana");
+        cachorro1.setCor("azul");
+        cachorro1.setAltura(25);
+        cachorro1.setPeso(18.5);
+        cachorro1.setTamanhoDoRabo(5);
 
 //        cachorro1.latir();
 //
