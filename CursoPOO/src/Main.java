@@ -1,18 +1,19 @@
 import Animais.Cachorro;
+import Animais.Gato;
+import Animais.Passaro;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Cachorro cachorro1 = new Cachorro();
-        Cachorro cachorro2 = new Cachorro("Bidu", "Marrom", 10, 18.5, 7);
+        Cachorro cachorro1 = new Cachorro("Bidu", "Marrom", 10.5);
 
-        System.out.println(cachorro2.getNome());
-        System.out.println(cachorro2.getAltura());
+        Gato gato1 = new Gato("Mingau", "Branco", 5.7);
 
-        System.out.println("o cachorro está " + cachorro1.interagir("carinho"));
-        System.out.println("o cachorro está " + cachorro1.interagir("pisar na patinha"));
-        System.out.println("o cachorro está " + cachorro1.interagir("vai dormir"));
-        System.out.println("o cachorro está " + cachorro1.interagir(""));
+        Passaro passaro1 = new Passaro("Jorge", "Verde", 8);
+
+        cachorro1.soar();
+        gato1.soar();
+        passaro1.soar();
     }
 }
