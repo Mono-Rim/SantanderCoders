@@ -5,16 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         Cachorro cachorro1 = new Cachorro();
+        Cachorro cachorro2 = new Cachorro("Bidu", "Marrom", 10, 18.5, 7);
 
-        cachorro1.setNome("Diana");
-        cachorro1.setCor("azul");
-        cachorro1.setAltura(25);
-        cachorro1.setPeso(18.5);
-        cachorro1.setTamanhoDoRabo(5);
-
-//        cachorro1.latir();
-//
-//        System.out.println("O cachorro pegou uma " + cachorro1.pegar());
+        System.out.println(cachorro2.getNome());
+        System.out.println(cachorro2.getAltura());
 
         System.out.println("o cachorro está " + cachorro1.interagir("carinho"));
         System.out.println("o cachorro está " + cachorro1.interagir("pisar na patinha"));
