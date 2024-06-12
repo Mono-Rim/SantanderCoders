@@ -19,6 +19,7 @@ public class Passaro extends Animal {
         Passaro.numeroDePassaros = numeroDePassaros;
     }
 
+    @Override
     public void soar(){
         System.out.println("Piu Piu");
     }
